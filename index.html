@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="./img/ethan-dow-l2tQdtapKX4-unsplash.jpg" alt="ocean" class="ocean">
+            <img src="./img/odin-lined.png" alt="theodinproject" class="top">
+            <div class="top-bg">
+                <p>Odin</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</h3>
+                <h3>You know you want to.</h3>
+            </div>
+
+            <form action="">
+                <div class="right-input">
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name" minlength="1" placeholder="Thor">
+
+                    <label for="email">*Email</label>
+                    <input type="email" id="email" placeholder="youremail@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="********" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                </div>
+
+                <div class="left-input">
+                                    <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" minlength="1" placeholder="Odinson">
+
+                <label for="phone">Phone Number</label>
+                <input type="number" id="phone" placeholder="+49 121 23412">
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" placeholder="********" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

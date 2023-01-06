@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body  {
+    font-family: 'Rowdies', cursive, serif, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+}
+.left {
+    position: relative;
+    display: flex;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: 1;
+    padding: 50px 150px;
+    width: 60%;
+}
+
+.ocean {
+    width: 30vw;
+    height: 100vh;
+    z-index: -1;
+} 
+.top-bg {
+    position: absolute;
+    top: 40%;
+    width: 30vw;
+    height: 220px;
+    background-color: black;
+    opacity: 40%;
+    z-index: 1;
+}
+
+.top-bg > p {
+    text-transform: uppercase;
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    color: white;
+    font-weight: 700;
+    font-size: 5rem;
+    z-index: 1;
+}
+.top {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 41%;
+    right: 50%;
+    z-index: 2;
+}
+
+.right-input,  .left-input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header {
+    margin: 0 0 100px 0;
+}
+
+h3 {
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px;
+}
+
+input {
+    width: 350px;
+    height: 30px;
+    border-radius: 50px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+@media (max-width: 570px) {
+
+}
